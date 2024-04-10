@@ -15,11 +15,11 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       <MySkills />
-      <AboutMe />
+      <AboutMe /> 
       <MyPortfolio />
-      <Testimonals />
+      <Testimonals /> 
       <ContactMe />
       <Footer />
     </>
-  );
+  )
 }

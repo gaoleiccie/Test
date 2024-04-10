@@ -12,7 +12,7 @@ p {
 
 :root {
   --primary: #5e3bee;
-  --heading-clor: #282938;
+  --heading-color: #282938;
   /* btn color */
   --bg-shade: #f5fcff;
   --github: #e62872;
@@ -54,10 +54,53 @@ h3 {
 }
 
 /* Paragrahs text large medium small  */
+.text-lg,
+.text-md,
+.text-sm {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.text-md,
+.test-sm {
+  font-size: 14px;
+}
+
 /* Body 1 */
 .text-lg {
-    color: var(--darkblue); 
-    font-size: 18px;
-    font-style: normal;
-    
+  color: var(--darkblue);
+  font-size: 18px;
+  line-height: 27px;
+}
+/* Body 2 */
+.text-md {
+  color: var(--darkblue);
+  line-height: 24px;
+}
+/* Body 3  */
+.test-sm {
+  color: var(--black);
+  line-height: 21px;
+}
+
+/* Section Titles  */
+/* Skills & Aboue me  */
+.section--title,
+.sub--title {
+  color: var(--heading-color);
+  font-weight: 600;
+}
+/* shared title */
+.section--title {
+  font-size: 21px;
+  font-style: normal;
+  line-height: 32px;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.sub--title {
+  font-size: 16px;
+  line-height: 24px;
 }
