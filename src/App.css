@@ -1,0 +1,63 @@
+/* Global CSS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+:root {
+  --primary: #5e3bee;
+  --heading-clor: #282938;
+  /* btn color */
+  --bg-shade: #f5fcff;
+  --github: #e62872;
+  --black: #000000;
+  --white: #ffffff;
+  --darkblue: #1c1e53;
+  --font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+}
+
+/* Main Heading 1 */
+
+/* heading 1  */
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+/* heading 2  */
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+/* heading 3 */
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+/* Paragrahs text large medium small  */
+/* Body 1 */
+.text-lg {
+    color: var(--darkblue); 
+    font-size: 18px;
+    font-style: normal;
+    
+}
