@@ -1,0 +1,26 @@
+.hero-section__description {
+  color: var(--darkblue);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.skills--section__title{
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-size: 700;
+    line-height: 2.81rem;
+}
+
+.skills--section__heading {
+    color: var(--heading-color);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.8125rem;
+}
+
+.portflio-section__card-title{
+    color: var(--heading-color);
+    font-size: 1.17rem;
+    font-weight: bold;
+}

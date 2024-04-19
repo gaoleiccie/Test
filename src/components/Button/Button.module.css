@@ -1,4 +1,8 @@
 .btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   font-family: "Roboto";
   display: inline-block;
   padding: 14px 32px;

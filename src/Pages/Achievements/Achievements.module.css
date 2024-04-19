@@ -1,0 +1,38 @@
+/* Achievements Section style */
+
+.achievements-section {
+    display: flex;
+    flex-direction: column; 
+    padding: 7rem 5.28rem;
+    align-items: flex-start;
+    gap: 5rem;
+    background: var(--bg-shade);
+}
+
+.section__heading {
+    color: var(--heading-color);
+}
+
+.achievements-section__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2.66rem;
+}
+
+.achievements-section__card{
+    display: flex;
+    flex-direction: column;
+    padding: 2.66rem;
+    gap: 2.66rem; 
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1.33px solid #006b6a;
+    
+}
+
+.achievements-section__card-img {
+    width: 100%;
+}

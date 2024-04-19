@@ -36,27 +36,37 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
+    <nav className={`${classes.navbar} ${navActive ? classes.ative : ""}`}>
       <div>
         <img src={logo} alt="Logo" />
       </div>
-      <a className={`nav__hamburger ${navActive ? "active" : ""} `}>
-        <span className="nav__hamburger--line"></span>
-        <span className="nav__hamburger--line"></span>
-        <span className="nav__hamburger--line"></span>
+      <a
+        className={`${classes.nav__hamburger} ${
+          navActive ? classes.active : ""
+        } `}
+      >
+        <span className={classes["nav__hamburger--line"]}></span>
+        <span className={`${classes["nav__hamburger--line"]}`}></span>
+        <span className={`${classes["nav__hamburger--line"]}`}></span>
       </a>
-      <div className={`navbar__items ${navActive ? "active" : ""}`}>
+
+      {/* <div className={`navbar__items ${navActive ? "active" : ""}`}> */}
+      <div
+        className={`${classes.navbar__items} ${
+          navActive ? classes.active : ""
+        }`}
+      >
         <ul>
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar-active__content"
+              activeClass={classes["navbar__content-active"]}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="heroSection"
-              className="navbar__content"
+              className={classes.navbar__content}
             >
               Home
             </Link>
@@ -64,13 +74,13 @@ export default function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar-active__content"
+              activeClass={classes["navbar__content-active"]}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="MyPortfolio"
-              className="navbar__content"
+              className={classes.navbar__content}
             >
               Portfolio
             </Link>
@@ -78,13 +88,13 @@ export default function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar-active__content"
+              activeClass={classes["navbar__content-active"]}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
               to="AboutMe"
-              className="navbar__content"
+              className={classes.navbar__content}
             >
               About Me
             </Link>
@@ -92,33 +102,32 @@ export default function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar-active__content"
+              activeClass={classes["navbar__content-active"]}
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testimonals"
-              className="navbar__content"
+              to="Achievements"
+              className={classes.navbar__content}
             >
-              Testimonals
+              Achievements
             </Link>
           </li>
         </ul>
       </div>
-      <Button>
-        <Link
-          onClick={closeMenu}
-          activeClass="navbar-active__content"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-          to="Contact"
-          className="navbar__content"
-        >
-          Contact Me
-        </Link>
-      </Button>
+
+      <Link
+        onClick={closeMenu}
+        activeClass={classes["navbar-active__content"]}
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        to="ContactMe"
+        className={classes.navbar__content}
+      >
+        <Button className="btn-outline-primary"> Contact Me</Button>
+      </Link>
     </nav>
   );
 }

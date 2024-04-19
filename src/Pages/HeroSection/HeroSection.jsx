@@ -9,6 +9,7 @@ export default function HeroSection() {
       <div className={classes["hero-section__content"]}>
         <div className={classes["hero-section__content--infobox"]}>
           <p className="section--title">Hey, I'm Leo</p>
+          {/* double check the css name */}
           <h1 className={classes["hero-section__position"]}>
             <span className={classes["hero-section__position--color"]}> Full Stack </span>
             <br />Developer

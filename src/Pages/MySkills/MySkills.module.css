@@ -1,0 +1,80 @@
+/* skills Section Style*/
+
+.skills--section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 9.3rem 5.3rem;
+    gap: 6.625rem;
+}
+
+.skills--section__heading {
+    color: var(--heading-color);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.8125rem;
+}
+
+.skills--section__container{
+    display: grid;
+    justify-content: cente;
+    align-items: flex-start;
+    grid-template-columns: repeat(4,1fr);
+    gap:2.6625rem;
+}
+
+.skills--section__card{
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 10.6px;
+    background: var(--bg-shade);
+    min-height: 15.625rem;
+    cursor: default;
+}
+
+.skills--section__card:hover {
+    border-bottom: 4px solid var(--primary);
+}
+
+.skills--section__card:hover,
+.skills--section__description {
+    color: var(--darkblue);
+}
+.skills--section__img {
+    display: flex;
+    padding: 0.83rem; 
+    justify-content: center;
+    align-items: center;
+    gap: 0.83rem;
+    border-radius: 10.6px;
+    background: var(--white);
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skills--section__card--content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.skills--section__title{
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-size: 700;
+    line-height: 2.81rem;
+}
+
+.skills--section__description {
+    color: var(--black);
+    font-size: 1.31rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}

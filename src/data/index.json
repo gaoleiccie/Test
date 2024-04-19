@@ -1,0 +1,73 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "../src/assets/product-chain-1.png",
+      "title": "Front-end",
+      "description": "Front-end development focuses on HTML, CSS, JavaScript, and React frameworks."
+    },
+    {
+      "id": "2",
+      "src": "../src/assets/tag-1.png",
+      "title": "Back-end",
+      "description": "Back-end development manages server, application, and database with JavaScript, Python, C#."
+    },
+    {
+      "id": "3",
+      "src": "../src/assets/feather-pen-2.png",
+      "title": "UI Enhancement",
+      "description": "Tailwind CSS for utility-first styles and Material-UI for React components enhance UI efficiency."
+    },
+    {
+      "id": "4",
+      "src": "../src/assets/feather-pen-1.png",
+      "title": "Serverless Development",
+      "description": "Serverless Framework simplifies app deployment and management."
+    }
+  ],
+  "portfolios": [
+    {
+      "id": "1",
+      "src": "../src/assets/sample-picture.png",
+      "title": "Ahuse",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "../src/assets/sample-picture.png",
+      "title": "App Dashboard",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "../src/assets/sample-picture.png",
+      "title": "Easy Rentn",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "View In Github"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "1",
+      "src": "../src/assets/utas-achievement.svg",
+      "title": "Master's degree",
+      "description": "I diligently earned my master's in Information Systems and Technology from UTas, gaining invaluable expertise to thrive in the digital landscape."
+    
+    },
+    {
+      "id": "2",
+      "src": "../src/assets/azure-achievement.svg",
+      "title": "Azure Foundations",
+      "description": "I proudly achieved the Azure Foundations certification, validating my foundational knowledge in Microsoft's cloud computing platform for future career growth."
+   
+    },
+    {
+      "id": "3",
+      "src": "../src/assets/udemy-achievement.svg",
+      "title": "Web Mastery",
+      "description": "Through comprehensive Udemy courses, I mastered React.js, TypeScript, Node.js, JavaScript ES6, and CSS, enhancing my web development prowess."
+    }
+  ]
+}
