@@ -5,7 +5,7 @@ import "../../App.css";
 
 export default function HeroSection() {
   return (
-    <section id="heroSection" className={classes["hero-section"]}>
+    <section id="HeroSection" className={classes["hero-section"]}>
       <div className={classes["hero-section__content"]}>
         <div className={classes["hero-section__content--infobox"]}>
           <p className="section--title">Hey, I'm Leo</p>
