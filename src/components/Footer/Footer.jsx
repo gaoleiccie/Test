@@ -82,7 +82,7 @@ export default function Footer() {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com/"
+                href="https://www.linkedin.com/in/leogao100/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -103,7 +103,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.linkedin.com/in/leogao100/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -126,7 +126,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://www.twitter.com/"
+                href="https://twitter.com/LeoGao100"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -147,7 +147,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/leogao100/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
