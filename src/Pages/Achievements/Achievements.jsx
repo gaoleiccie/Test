@@ -15,7 +15,10 @@ export default function Achievements() {
       <div className={classes["achievements-section__container"]}>
         {data?.achievements?.map((achievement) => {
           return (
-            <div className={classes["achievements-section__card"]}>
+            <div
+              key={achievement.id}
+              className={classes["achievements-section__card"]}
+            >
               <div className={classes["achievements-section__card-content"]}>
                 <h3 className={sharedClasses["portflio-section__card-title"]}>
                   {achievement.title}
