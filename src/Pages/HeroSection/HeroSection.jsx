@@ -11,12 +11,16 @@ export default function HeroSection() {
           <p className="section--title">Hey, I'm Leo</p>
           {/* double check the css name */}
           <h1 className={classes["hero-section__position"]}>
-            <span className={classes["hero-section__position--color"]}> Full Stack </span>
-            <br />Developer
+            <span className={classes["hero-section__position--color"]}>
+              {" "}
+              Full Stack{" "}
+            </span>
+            <br />
+            Developer
           </h1>
           <p className={classes["hero-section__description"]}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Dolorum, quas. Amet soluta assumenda cum?
+            Unleashing digital wonders with a sprinkle of humor, turning dreams
+            into tech-tastic realities, one line of code at a time!
           </p>
         </div>
         <Button>Get in Touch</Button>
